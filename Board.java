@@ -21,7 +21,13 @@ public class  Board
     phrase = loadPhrase();
     setLetterValue();
   }
+ public String getSolvedPhrase(){
+    return solvedPhrase;
+  }
 
+  public int getCurrentLetterValue(){
+    return currentLetterValue;
+  }
 
   /* ---------- provided code, do not modify ---------- */
   public void setLetterValue()
