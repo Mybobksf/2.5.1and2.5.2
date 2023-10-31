@@ -16,7 +16,7 @@ public class  Board
   
   /* your code here - accessor(s) */
   
-  /* your code here - mutator(s)  *
+  /* your code here - mutator(s)  */
   public Board(){
     phrase = loadPhrase();
     setLetterValue();
