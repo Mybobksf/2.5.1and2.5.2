@@ -16,7 +16,13 @@ public class  Board
   
   /* your code here - accessor(s) */
   
-  /* your code here - mutator(s)  */
+  /* your code here - mutator(s)  *
+  public Board(){
+    solvedPhrase = "";
+    phrase = loadPhrase();
+    this.setLetterValue();
+    System.out.println("Phrase: " + phrase);
+  }
 
 
   /* ---------- provided code, do not modify ---------- */
