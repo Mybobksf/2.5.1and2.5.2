@@ -18,7 +18,13 @@ public class Player
     String newName = scanned.nextLine();
     
     name = newName;
-    System.out.println("Welcome to the game " + name);
+    System.out.println("Hi " + name + " Welcome to the game!");
+  }
+  public Player(String inputName) {
+    points = 0;
+
+    name = inputName;
+    System.out.println("Hello " + inputName + "!!! \nWelcome to the game.\n");
   }
   /* your code here - accessor(s) */ 
 
