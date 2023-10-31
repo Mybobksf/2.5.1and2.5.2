@@ -18,10 +18,8 @@ public class  Board
   
   /* your code here - mutator(s)  *
   public Board(){
-    solvedPhrase = "";
     phrase = loadPhrase();
-    this.setLetterValue();
-    System.out.println("Phrase: " + phrase);
+    setLetterValue();
   }
 
 
