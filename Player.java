@@ -15,9 +15,9 @@ public class Player
     points = 0;
     Scanner scanned = new Scanner(System.in);
     System.out.print("Enter Player Name: ");
-    String newName = scanned.nextLine();
+    String Naming = scanned.nextLine();
     
-    name = newName;
+    name = Naming;
     System.out.println("Hi " + name + " Welcome to the game!");
   }
   public Player(String inputName) {
