@@ -7,11 +7,9 @@ import java.util.Scanner;
 
 public class Player
 {
-  /* your code here - attributes */
   private String name;
   private int points;
-  /* your code here - constructor(s) */ 
-   public Player() {
+  public Player() {
     points = 0;
     Scanner scanned = new Scanner(System.in);
     System.out.print("Enter Player Name: ");
@@ -20,13 +18,22 @@ public class Player
     name = Naming;
     System.out.println("Hi " + name + " Welcome to the game!");
   }
-  public Player(String inputName) {
+  public Player(String Names) {
     points = 0;
 
-    name = inputName;
-    System.out.println("Hello " + inputName + "!!! \nWelcome to the game.\n");
+    name = Names;
+    System.out.println("Hello " + name + " Welcome to the game.");
   }
-  /* your code here - accessor(s) */ 
-
-  /* your code here - mutator(s) */ 
+  public String getName(){
+    return name;
+  }
+  public int getPoints(){
+    return points;
+  }  
+  public void setPoints(int x){
+    points = x;
+  }
+  public void setName(String y){
+    name = y;
+  } 
 }
