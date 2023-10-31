@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Player
 {
   /* your code here - attributes */
-
+  private String name;
+  private int points;
   /* your code here - constructor(s) */ 
 
   /* your code here - accessor(s) */ 
