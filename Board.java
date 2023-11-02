@@ -1,9 +1,10 @@
 /*
  * Activity 2.5.2
- *//Developed by Lukas Somwang and Anil Sarvabatla
-
+ *
  * A Board class the PhraseSolverGame
  */
+//Developed by Lukas Somwang and Anil Sarvabatla
+
 import java.util.Scanner;
 import java.io.File;
 
