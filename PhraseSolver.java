@@ -3,6 +3,8 @@
  *
  *  The PhraseSolver class the PhraseSolverGame
  */
+//Developed by Lukas Somwang and Anil Sarvabatla
+
 import java.util.Scanner;
   
 public class PhraseSolver
