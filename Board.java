@@ -10,6 +10,7 @@ import java.io.File;
 
 public class  Board
 {
+  //The attributes for the word
   private String solvedPhrase;
   private String phrase;
   private int currentLetterValue; 
@@ -19,6 +20,7 @@ public class  Board
   /* your code here - accessor(s) */
   
   /* your code here - mutator(s)  */
+  //loading up the board
   public Board(){
     phrase = loadPhrase();
     setLetterValue();
