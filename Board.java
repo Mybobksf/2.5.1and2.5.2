@@ -108,6 +108,7 @@ public class Board {
     // Guess phrase and return points multiplier
     public int guessPhrase(String guess) {
         if (isSolved(guess)) {
+            solvedPhrase = phrase;
             return 3;
         } else {
             return 0;
